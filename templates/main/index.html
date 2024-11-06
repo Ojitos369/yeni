@@ -1,0 +1,21 @@
+{% load static %}<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Page description"
+    />
+    <title>React Base</title>
+<script>let from_init = {};try {from_init = "{{ data }}".replaceAll('&#x27;', '"').replaceAll('True', 'true').replaceAll('False', 'false').replaceAll('None', 'null');from_init = from_init.toString();from_init = JSON.parse(`${from_init}`);} catch (error) {from_init = {};}</script>
+    <script type="module" crossorigin src="{% static 'main/assets/index.f89a0c25.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'main/assets/index.ff0a8e5d.css' %}">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+
+  </body>
+</html>

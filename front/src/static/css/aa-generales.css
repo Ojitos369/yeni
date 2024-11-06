@@ -1,0 +1,173 @@
+@import './animations.css';
+@import './vars.css';
+
+body {
+    background: var(--bg-color);
+    color: #ccc;
+    min-height: 100vh;
+    overflow-y: scroll;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.row, .container-fluent {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.reflejo:hover {
+    animation: reflejo 0.5s;
+}
+
+.manita {
+    cursor: pointer !important;
+}
+
+.flechita {
+    cursor: default !important;
+}
+
+.mouse-block {
+    cursor: not-allowed !important;
+}
+
+.zoom:hover {
+    animation: zoom 1s;
+}
+
+.bg-primary-d {
+    background-color: var(--my-bg-primary-black);
+}
+
+.btn {
+    border-radius: 35px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 0 50px 50px 0;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.custom-select {
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 2px;
+}
+
+.bg-par {
+    background-color: #444;
+    color: #fff;
+}
+
+.bg-impar {
+    background-color: #888;
+}
+
+
+
+/* width, height */
+::-webkit-scrollbar {
+    width: 3px !important;
+    height: 3px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #0000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 35px !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Handle on active */
+::-webkit-scrollbar-thumb:active {
+    background: #aaa;
+}
+
+
+.text-icon svg {
+    height: 25px;
+    width: 25px;
+}
+
+.divisor-white {
+    border-top: 3px solid #000;
+}
+.divisor-black {
+    border-top: 4px solid #fff;
+}
+
+.full-page-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: -100;
+}
+
+.myinput {
+    border-radius: 15px;
+    height: 35px;
+}
+
+.btn {
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    height: 40px;
+    justify-content: center;
+}
+
+
+.bg-my-black {
+    transition: all 0.5s;
+    background: var(--my-black);
+    color: var(--my-white);
+}
+.bg-my-white {
+    transition: all 0.5s;
+    background: var(--my-white);
+    color: var(--my-dark);
+}

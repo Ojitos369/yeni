@@ -1,0 +1,32 @@
+.sun {
+    .primary{
+        fill: var(--my-secondary);
+    }
+    .secondary{
+        fill: var(--my-yellow);
+    }
+}
+.moon {
+    .primary{
+        fill: var(--my-secondary);
+    }
+    .secondary{
+        fill: var(--my-yellow);
+    }
+}
+.circle_xmark {
+    .primary{
+        fill: #800;
+    }
+    .secondary{
+        fill: #000;
+    }
+}
+.gears {
+    .primary{
+        fill: #05f2be;
+    }
+    .secondary{
+        fill: #9616ff;
+    }
+}
