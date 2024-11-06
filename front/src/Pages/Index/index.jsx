@@ -23,7 +23,7 @@ const Index = props => {
 
                 <h2 className={`text-center w-full mt-5 font-bold text-4xl ${theme === 'black' ? 'text-white' : 'text-black'} reflejo`}
                 >
-                    Te Quiero Yeni
+                    Te Quiero Mucho Yeni
                 </h2>
             </div>
             {modalChangeTheme && <ModalThemeChanged />}
